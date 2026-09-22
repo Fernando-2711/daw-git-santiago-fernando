@@ -1,0 +1,35 @@
+// Operadores aritmeticos
+
+let a=5;
+let b=10;
+
+console.log(a+b);//Suma
+console.log(a-b);//Resta
+console.log(a*b);//Multiplicación
+console.log(a/b);//División
+console.log(a%b);//Módulo
+console.log(a**b);//Exponente
+
+a++;
+console.log(a);//Incremento
+console.log(++a);//Incremento
+
+b--;
+console.log(b);//Decremento
+console.log(--b);//Decremento
+
+// Operadores de asignación
+let myVariable = 2;
+console.log(myVariable);
+myVariable += 2;//Suma con asignacion
+console.log(myVariable);
+myVariable -= 2;//Resta con asignacion
+console.log(myVariable);
+myVariable *= 2;//Multiplicación con asignacion
+console.log(myVariable);
+myVariable /= 2;//División con asignacion
+console.log(myVariable);
+myVariable %= 2;//Módulo con asignacion
+console.log(myVariable);
+myVariable **= 2;//Exponente con asignacion
+console.log(myVariable);

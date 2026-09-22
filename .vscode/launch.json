@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Ejecutar prueba2.js",
+            "program": "${workspaceFolder}/prueba2.js",
+            "runtimeExecutable": "/home/fernando/.nvm/versions/node/v24.21.0/bin/node",
+            "console": "integratedTerminal"
+        }
+    ]
+}
