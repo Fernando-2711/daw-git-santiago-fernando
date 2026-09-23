@@ -40,3 +40,23 @@ console.log("Tipo de dato de direccion: " + typeof direccion);
 console.log("Tipo de dato de telefono: " + typeof telefono);
 console.log("Tipo de dato de numeroGrande: " + typeof numeroGrande);
 console.log("Tipo de dato de simbolo: " + typeof simbolo);
+
+// 6. A continuacion, modifica los valores de las variables
+nombre = "Paco";
+edad = 20;
+esEstudiante = false;
+direccion = "Calle Falsa 123";
+telefono = "123456789";
+numeroGrande = BigInt(9876543210987654321098765432109876543210);
+simbolo = Symbol("42");
+
+// 7. Imprime por consola el valor y el tipo de dato de todas las variables
+console.log("Nombre: " + nombre + " - Tipo: " + typeof nombre);
+console.log("Edad: " + edad + " - Tipo: " + typeof edad);
+console.log("Es estudiante: " + esEstudiante + " - Tipo: " + typeof esEstudiante);
+console.log("Direccion: " + direccion + " - Tipo: " + typeof direccion);
+console.log("Telefono: " + telefono + " - Tipo: " + typeof telefono);
+console.log("Numero grande: " + numeroGrande + " - Tipo: " + typeof numeroGrande);
+console.log("Simbolo: " + simbolo + " - Tipo: " + typeof simbolo);
+
+// 8. Declara constantes com los valores de las variables

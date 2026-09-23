@@ -7,7 +7,7 @@ var age = 18;
 let country = "España";
 
 //const
-const birthDate = "2005-01-01";
+const BirthDate = "2005-01-01";
 
 //error
 helloWorld3 = "Hola mundo!"

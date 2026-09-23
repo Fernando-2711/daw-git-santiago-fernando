@@ -33,3 +33,16 @@ myVariable %= 2;//Módulo con asignacion
 console.log(myVariable);
 myVariable **= 2;//Exponente con asignacion
 console.log(myVariable);
+
+// Operadores de comparación
+let x = 5;
+let y = 10;
+
+console.log(x > y);//Mayor que
+console.log(x < y);//Menor que
+console.log(x >= y);//Mayor o igual que
+console.log(x <= y);//Menor o igual que
+console.log(x == y);//Igualdad
+console.log(x != y);//Desigualdad
+console.log(x === y);//Identidad
+console.log(x !== y);//No identidad
