@@ -52,7 +52,7 @@ if (mes==2) {
 }
 
 //8.Usa switch para imprimir un mensaje de saludo diferente dependiendo del idioma
-let idioma = "español";
+let idioma = "frances";
 switch (idioma) {
     case "español":
         console.log("Hola");
@@ -60,7 +60,7 @@ switch (idioma) {
     case "ingles":
         console.log("Hello");
         break;
-    case "francés":
+    case "frances":
         console.log("Bonjour");
         break;
     default:
