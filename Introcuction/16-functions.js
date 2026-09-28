@@ -83,4 +83,10 @@ funcionOrdenSuperior(saludo,"Paco");
 
 //forEach
 
+const array = [1,2,3,4,5];
+array.forEach((elemento) => {
+    console.log(elemento);
+});
+
+
 

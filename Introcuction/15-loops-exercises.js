@@ -21,18 +21,50 @@ for (let i=1;i<=50;i++) {
     }
 }
 
-//4. Dado un array de nombres, usa un bucle para imprimir casa nombre por consola
+//4. Dado un array de nombres, usa un bucle para imprimir cada nombre por consola
 let nombres= ["Fernando","Maria","Ruben","Carlos"]
-
+for (let i=0; i<nombres.length; i++) {
+    console.log(nombres[i]);
+}
 
 //5. Escribe in bucle que cuente el numero de vocales en una cadena de texto
+let texto = "Hola, este es un ejemplo de cadena de texto para contar vocales";
+let contador=0;
+for (let i=0; i<texto.length; i++) {
+    if (texto[i].toLowerCase() === 'a' || texto[i].toLowerCase() === 'e' || texto[i].toLowerCase() === 'i' || texto[i].toLowerCase() === 'o' || texto[i].toLowerCase() === 'u') {
+        contador++;
+    }
+}
+console.log(contador);
 
 //6.Dado un array de numeros, usa un bucle para multiplicar todos los numeros y motrar el producto
+let numeros = [1, 2, 3, 4, 5];
+let producto = 1;
+for (let i = 0; i < numeros.length; i++) {
+    producto = producto * numeros[i];
+}
+console.log(producto);
 
 //7. Escribe un bucle que imprma la tabla de multiplicar del 5
+let resultado2=0;
+for (let i=1; i<=10; i++) {
+    resultado2=5*i;
+    console.log("5 x "+i+" = "+resultado2);
+}
 
-//8. Usa un bucle para imprimir una cadena de texto
+//8. Usa un bucle para invertir una cadena de texto
+let mitexto = "Hola, este es un ejemplo de cadena de texto";
+let textoInvertido = "";
+for (let i = mitexto.length - 1; i >= 0; i--) {
+    textoInvertido += mitexto[i];
+}
+console.log(textoInvertido);
 
 //9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci
+let fib = [0, 1];
+for (let i = 2; i < 10; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+}
+console.log(fib);
 
 //10. Dado un array de nuemros, usa un bucle para crear un nuevo array que contenga numeros mayores de 10
