@@ -68,3 +68,11 @@ for (let i = 2; i < 10; i++) {
 console.log(fib);
 
 //10. Dado un array de nuemros, usa un bucle para crear un nuevo array que contenga numeros mayores de 10
+let numeros2 = [5, 12, 8, 20, 3, 15];
+let mayoresDeDiez = [];
+for (let i = 0; i < numeros2.length; i++) {
+    if (numeros2[i] > 10) {
+        mayoresDeDiez.push(numeros2[i]);
+    }
+}
+console.log(mayoresDeDiez);
