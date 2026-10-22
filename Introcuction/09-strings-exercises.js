@@ -19,7 +19,7 @@ let nombre = "Fernando";
 console.log(`Hola, ${nombre}!`);
 
 //7.Remplaza todos los espacios en blnco de un stringf por guiones
-console.log("Hola Mundo espero que tengais un buen dia".replace(/ /g, "-"));
+console.log("Hola Mundo espero que tengais un buen dia".replaceAll(" ", "-"));
 
 //8.Comprueba si una cadena de texto contiene una palabra concreta
 console.log("Hola Mundo".includes("Mundo"));
