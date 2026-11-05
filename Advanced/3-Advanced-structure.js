@@ -28,3 +28,41 @@ console.log(sorted)
 //sort
 numbers.sort((a,b)=>a-b)
 console.log(numbers)
+
+//flatMap
+let phrases = ["Hola Mundo", "Adios mundo"]
+const words = phrases.flatMap(phrase => phrase.split(" "))
+console.log(words)
+
+//Union
+const setA = new Set([1, 2, 3]);
+const setB = new Set([1,2,4,5]);
+const union = new Set([...setA, ...setB]);
+console.log(union);
+
+//Intersection
+const intersection = new Set([...setA].filter(element => setB.has(element)));
+console.log(intersection);
+
+//Diferencia
+const difference = new Set([...setA].filter(element => !setB.has(element)));
+console.log(difference);
+
+//Conversion de Set a Array
+console.log([...setA])
+
+//forEach
+setA.forEach(element => console.log(element));
+
+//Maps avanzados
+let myMap =new Map([
+    ["name","Fernando"],
+    ["age", 30],
+])
+
+//Iteracion
+myMap.forEach((value,key)=>console.log(key,value))
+
+for (let entry of myMap.entries()){
+    console.log(`La clave es ${entry[0]} y el valor es ${entry[1]}`)
+}

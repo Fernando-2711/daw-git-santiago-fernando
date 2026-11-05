@@ -171,6 +171,7 @@ function reverseString(str){
 console.log(reverseString("Hola mundo"))
 
 //Fibonacci: obtener el n-esimo numero de la serie de Fibonacci
+console.log("Holaaaa")
 
 function fibonacci(n){
     if(n===0){
